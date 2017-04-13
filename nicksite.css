@@ -1,0 +1,138 @@
+.floated_image {
+	float: left;
+	margin-left: 1%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#floated_image2 {
+	float: left;
+	clear: left;
+	overflow: auto;
+	margin-left: 1%;
+}
+
+body {
+	width: 100%;
+	background-color: black;
+	
+}
+
+.body {
+	background-color: #131414;
+}
+
+.formTitle {
+	margin-left: 17%;
+	color: lightBlue;
+}
+
+.control-label {
+	color: lightBlue;
+}
+
+h1 {
+
+	color: lightBlue;
+	font-family: 'Libre Baskerville', serif;
+}
+
+p {
+	color: lightBlue;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.headerWords {
+	font-family: 'Libre Baskerville', serif;
+	color: black;
+
+
+}
+
+
+.textColumn {
+	margin-top: 0.5%;
+	padding-left: 1%;
+}
+
+.inner-title {
+	color: lightBlue;
+}
+
+
+.nametext {
+	width: 20%;
+	float: left;
+}
+
+.mainIndex {
+	margin-top: 2%;
+}
+
+.links {
+	margin-top: 2%;
+	padding: 1%;
+}
+
+.mainSection {
+	margin-top: 2%;
+}
+
+.drumtext {
+	float: left;
+}
+
+
+
+
+
+.page-header {
+	padding-top: 3%;
+	padding-bottom: 0.05%;
+	padding-left: 1%;
+	background-image: url("cymbal3.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: -1%;
+	margin-left: 10px;
+	background-image-opacity: 0.5%;
+	background-color: black;
+	margin-left: 0;
+	width: 100%;
+  margin: 0 auto;
+  clear: both;
+  overflow: auto;
+
+}
+
+@media screen and (max-width: 980px) {
+
+
+	.page-header {
+		background-size: 100%;
+		
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+	.page-header {
+		background-size: 100%;
+	
+
+	}
+	}
+
+@media screen and (max-width: 640px) {
+	
+	.page-header {
+		background-size: 100%;
+	}
+
+}
