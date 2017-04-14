@@ -25,7 +25,7 @@ body {
 }
 
 .formTitle {
-	margin-left: 17%;
+	margin-left: 4%;
 	color: lightBlue;
 }
 
@@ -51,6 +51,10 @@ p {
 
 }
 
+.col-md-9 {
+
+}
+
 
 .textColumn {
 	margin-top: 0.5%;
@@ -59,6 +63,11 @@ p {
 
 .inner-title {
 	color: lightBlue;
+	margin-left: 4%;
+}
+
+.innerText {
+	margin-left: 4%;
 }
 
 
@@ -73,7 +82,7 @@ p {
 
 .links {
 	margin-top: 2%;
-	padding: 1%;
+	margin-left: 3%;
 }
 
 .mainSection {
